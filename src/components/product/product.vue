@@ -71,13 +71,13 @@ export default {
         }
     },
     created: function () {
-         axios.get('/api/oftenGoods').then(retData => {
+         axios.get('http://jspang.com/DemoApi/oftenGoods.php').then(retData => {
             this.oftenProducts = retData.data.data
         }
         ).catch(error => {
             console.log(error)
         }),
-        axios.get('/api/typeGoods').then(retData => {
+        axios.get('http://jspang.com/DemoApi/typeGoods.php').then(retData => {
             this.hamburgs = retData.data.data[0]
             this.snacks = retData.data.data[1]
             this.drinks = retData.data.data[2]
