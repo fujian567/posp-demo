@@ -24,8 +24,6 @@ var app = express()
 var appData = require('../data.json');
 var oftenGoods = appData.oftenGoods;
 var typeGoods = appData.typeGoods;
-
-
 var apiRoutes = express.Router();
 
 apiRoutes.get('/oftenGoods', function (req, res) {
