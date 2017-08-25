@@ -1,6 +1,8 @@
 
-初学Vue所做的小demo
-
+初学Vue所做的小demo（Pos收银）
+ 
+下载项目中的deom文件夹可查看demo
+ 
 技术栈
 
 vue2 + vuex + vue-router + webpack + element-ui
